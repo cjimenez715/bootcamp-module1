@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">Pesquisa de usuarios</h1>
+    <div class="data-container">
+      <span class="lbl-search">Busca</span>
+      <div class="search-section">
+        <input type="text" name="search" id="txtSearch" class="input-search" autocomplete="off">
+        <button id="btnSearch" class="search-button" disabled>BUSCAR</button>
+      </div>
+      <div class="data-section">
+        <div class="user-section">
+          <h5 id="lblUserCounter">Nenhum usuario filtrado</h5>
+          <div id="userList"></div>
+        </div>
+        <div class="statistic-section">
+          <h5 id="lblStatistic">Nada a ser exibido</h5>
+          <div id="statisticList"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
